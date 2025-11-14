@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+    background-image: url('../public/images/florestaEncantada.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+   
+    font-family: 'MedievalSharp', cursive; 
+    color: #f0e6d2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-shadow: 2px 2px 4px #000; 
+
+.container {
+    background-color: rgba(18, 12, 8, 0.85); 
+    border: 3px solid #7a5c33; 
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); 
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ebddb1; 
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+#userInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #4971c74f; 
+    border: 2px solid #a07d4e;
+    border-radius: 5px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.2em;
+    color: #f5e8e0; 
+    text-shadow: none;
+}
+
+#actionButton {
+    background-color: #4974d1;
+    color: #f0f0f0;
+    border: 3px solid #e2d481;
+    padding: 15px 30px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.3em;
+    cursor: pointer; 
+    border-radius: 50px; 
+    transition: all 0.3s ease;
+}
+
+#actionButton:hover {
+    background-color: #90ccf0;
+    color: #f3eeea;
+    transform: scale(1.05); 
+}
+
+#resposta {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #e3e4b4; 
+    min-height: 50px; 
+    font-weight: bold;
+}  
+
+}
